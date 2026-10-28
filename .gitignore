@@ -1,0 +1,13 @@
+# Local captures and generated reports can contain operational and identity data.
+operator-reports/
+snapshot*/
+metadata*/
+logs-audit/
+audit/
+*.log
+*.log.gz
+*.jsonl
+
+# Python runtime files.
+__pycache__/
+*.py[cod]
